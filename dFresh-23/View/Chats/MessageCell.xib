@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" rowHeight="71" id="Qwz-1s-1d0" customClass="MessageCell" customModule="dFresh_23" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qwz-1s-1d0" id="gy0-YE-tn3">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jRf-Ye-Dme">
+                        <rect key="frame" x="10" y="10" width="307" height="51"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="globe.europe.africa.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ru3-vG-Jwo">
+                                <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="aX8-6h-Awm"/>
+                                    <constraint firstAttribute="height" constant="40" id="cdV-sD-jCy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQs-Lh-lFe">
+                                <rect key="frame" x="60" y="0.0" width="187" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Maj-b5-OGG">
+                                        <rect key="frame" x="10" y="10" width="167" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.38823529410000002" green="0.5568627451" blue="0.79607843140000001" alpha="0.33000001309999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Maj-b5-OGG" secondAttribute="trailing" constant="10" id="3s9-oa-1NJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Maj-b5-OGG" secondAttribute="bottom" constant="10" id="AQq-qh-5qH"/>
+                                    <constraint firstItem="Maj-b5-OGG" firstAttribute="top" secondItem="uQs-Lh-lFe" secondAttribute="top" constant="10" id="MZv-Wh-cxb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Maj-b5-OGG" secondAttribute="trailing" constant="10" id="a5r-ae-bN9"/>
+                                    <constraint firstItem="Maj-b5-OGG" firstAttribute="leading" secondItem="uQs-Lh-lFe" secondAttribute="leading" constant="10" id="gif-iP-wCR"/>
+                                    <constraint firstAttribute="bottom" secondItem="Maj-b5-OGG" secondAttribute="bottom" constant="10" id="giy-EH-eQM"/>
+                                    <constraint firstItem="Maj-b5-OGG" firstAttribute="leading" secondItem="uQs-Lh-lFe" secondAttribute="leading" constant="10" id="iJ0-8D-xGe"/>
+                                    <constraint firstItem="Maj-b5-OGG" firstAttribute="top" secondItem="uQs-Lh-lFe" secondAttribute="top" constant="10" id="kXF-4I-hs5"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8BF-8R-f1H">
+                                <rect key="frame" x="267" y="1" width="40" height="38.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Gc9-Nd-Kgd"/>
+                                    <constraint firstAttribute="width" constant="40" id="XP6-vd-oB7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jRf-Ye-Dme" firstAttribute="top" secondItem="gy0-YE-tn3" secondAttribute="top" constant="10" id="HZa-rg-mI4"/>
+                    <constraint firstAttribute="trailing" secondItem="jRf-Ye-Dme" secondAttribute="trailing" constant="10" id="M8P-Zc-3ux"/>
+                    <constraint firstAttribute="bottom" secondItem="jRf-Ye-Dme" secondAttribute="bottom" constant="10" id="ruN-At-yd6"/>
+                    <constraint firstItem="jRf-Ye-Dme" firstAttribute="leading" secondItem="gy0-YE-tn3" secondAttribute="leading" constant="10" id="wyG-ox-Yc9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="G3w-5s-qLk"/>
+            <connections>
+                <outlet property="label" destination="Maj-b5-OGG" id="wQp-nD-Fx5"/>
+                <outlet property="me" destination="8BF-8R-f1H" id="Y8v-Z7-uXX"/>
+                <outlet property="msgBbl" destination="uQs-Lh-lFe" id="zfm-Bv-hX5"/>
+                <outlet property="world" destination="ru3-vG-Jwo" id="uiE-HA-iU4"/>
+            </connections>
+            <point key="canvasLocation" x="-926" y="-793"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="globe.europe.africa.fill" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
