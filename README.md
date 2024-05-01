@@ -78,3 +78,6 @@
 
 # Walkthrough Video
 
+    <a href="https://www.loom.com/share/1019c74e0eb5458f99a1f1cfc7291eae">
+          Simulator - iPhone 15 Pro - 1 May 2024 - Watch Video
+    </a>
