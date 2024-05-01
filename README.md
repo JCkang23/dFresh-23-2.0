@@ -74,7 +74,6 @@
 
 - [ ] List of several water supplies(UItableview)
 - [ ] Favorites page where users can store information to review later
-- [ ] User Chat page to send some comments/thoughts about the app
 - [ ] User settings page to track their settings and subscriptions/payments
 
 # Walkthrough Video
