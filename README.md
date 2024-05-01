@@ -70,7 +70,7 @@
     - [X] Read messages sent by other users
     - [X] Enable the keyboard on a device and disable it when tapping anywhere else than on the keyboard
      
-**Coming soon Features (Optional)**
+**Coming soon-Features (Optional)**
 
 - [ ] List of several water supplies(UItableview)
 - [ ] Favorites page where users can store information to review later
